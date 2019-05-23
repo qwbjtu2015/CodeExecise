@@ -2,7 +2,7 @@
  * 堆排序
  * 把调整堆这个功能抽离出来，通过递归调用实现堆的调整【maxHeap函数】
  */
-public class Main {
+public class HeapSort {
   	public static void heapSort(int[] data) {
 		// 由原始数组构建堆
 		buildHeap(data);

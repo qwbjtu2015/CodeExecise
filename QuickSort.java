@@ -4,7 +4,7 @@
  * 当所有数字顺序排列或逆序排列时 复杂度最大 因为树深最大（N）
  * 树深最小为logN， 因此最佳时间复杂度为O(NlogN)
  */
-public class Main {
+public class QuickSort {
 	public static void qSort(int left, int right, int[] data) {
 		int middle = partation(left, right, data);
 		qSort(left, middle-1, data);
